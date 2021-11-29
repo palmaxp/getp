@@ -10,6 +10,11 @@ export const Pokedex = () => {
       {
         <Container className="pokedex-view">
           <h2 className="title">Pokedéx</h2>
+          {!pokemonList[0] && (
+            <p className="title">
+              Gere e Adicione pokemons para eles aparecerem na Pokedex.
+            </p>
+          )}
           <ul>
             {pokemonList.map((element) => {
               return (
