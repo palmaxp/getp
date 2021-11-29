@@ -6,7 +6,6 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  min-height: 521px;
   padding: 30px 0;
   color: #fff;
   background-color: #81c784;
@@ -26,11 +25,8 @@
 .showPokemonContainer img {
   display: block;
   margin: 0 auto;
+  width: 100%;
   max-width: 400px;
-}
-
-h2 {
-  font-weight: 700;
 }
 
 .pokemonControl {

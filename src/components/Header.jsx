@@ -7,8 +7,8 @@ export const Header = () => {
   return (
     <header>
       <div className="header container">
-        <NavLink to="/">
-          <img src={logo} alt="Logo" className="logo" />
+        <NavLink to="/" className="logo">
+          <img src={logo} alt="Logo" />
         </NavLink>
         <nav>
           <NavLink className="li" to="/Pokemon">

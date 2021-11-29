@@ -31,11 +31,26 @@
 
 .pokemon {
   background-color: #81c784;
-  border: 3px solid white;
+  border: 5px solid white;
   padding: 5px 20px;
 }
 
 .pokemon span {
   color: white;
+  font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pokedex-view ul {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+  }
+  .pokedex-view ul li {
+    margin-top: 30px;
+  }
+  .pokedex-view ul li:first-child {
+    margin-top: 0;
+  }
 }
 /*# sourceMappingURL=Pokedex.css.map */
