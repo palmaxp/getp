@@ -1,0 +1,18 @@
+.pokedex-view {
+  min-height: 80vh;
+  ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  li {
+    text-align: center;
+    list-style-type: none;
+  }
+}
+.pokemon {
+  img {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+  }
+}

@@ -1,0 +1,26 @@
+.logo {
+  width: 150px;
+}
+header {
+  background-color: white;
+}
+.header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  .li {
+    background-color: #81c784;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    &:first-child {
+      margin-right: 30px;
+    }
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
