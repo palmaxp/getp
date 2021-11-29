@@ -9,6 +9,7 @@ export const Pokedex = () => {
     <>
       {
         <Container className="pokedex-view">
+          <h2 className="title">Pokedéx</h2>
           <ul>
             {pokemonList.map((element) => {
               return (
@@ -18,9 +19,9 @@ export const Pokedex = () => {
                       element.data.sprites.other["official-artwork"]
                         .front_default
                     }
-                    alt=""
+                    alt={element.data.name}
                   />
-                  {element.data.name}
+                  <span>{element.data.name}</span>
                 </li>
               );
             })}

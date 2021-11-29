@@ -18,6 +18,10 @@
   width: 50%;
 }
 
+.intro-bg .intro .intro-item p {
+  font-size: 25px;
+}
+
 .intro-bg .intro .intro-item img {
   width: 100%;
   display: block;

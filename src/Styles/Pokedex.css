@@ -1,4 +1,5 @@
 .pokedex-view {
+  padding: 30px 0 50px 0;
   min-height: 80vh;
 }
 
@@ -7,16 +8,34 @@
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .pokedex-view li {
+  text-transform: capitalize;
   text-align: center;
   list-style-type: none;
 }
 
 .pokemon img {
+  margin: 0 auto;
   display: block;
   width: 100%;
   max-width: 250px;
+}
+
+.title {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.pokemon {
+  background-color: #81c784;
+  border: 3px solid white;
+  padding: 5px 20px;
+}
+
+.pokemon span {
+  color: white;
 }
 /*# sourceMappingURL=Pokedex.css.map */

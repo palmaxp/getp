@@ -6,6 +6,11 @@
   padding: 30px 0;
   color: #fff;
   background-color: #81c784;
+  .nome {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
 }
 .showPokemonContainer {
   margin: 0 auto;
@@ -15,29 +20,47 @@
     margin: 0 auto;
     max-width: 400px;
   }
-  button {
-    width: 200px;
-  }
 }
-.info {
-  min-height: 300px;
+h2 {
+  font-weight: 700;
 }
 .pokemonControl {
   display: flex;
   justify-content: space-between;
+  button {
+    order: 1;
+  }
+  button:active {
+    opacity: 0.7;
+  }
 }
 .pokemon-history {
   text-align: center;
+  padding: 20px;
   margin-top: 20px;
+  background-color: white;
   ul {
     display: flex;
     flex-wrap: wrap;
   }
   li {
+    text-transform: capitalize;
+
     list-style: none;
     margin-left: 25px;
   }
 }
 .pokemon-info {
-  margin-top: 60px;
+  .nome {
+    text-transform: capitalize;
+
+    font-size: 21px;
+    font-weight: 700;
+  }
+  img {
+    display: block;
+    width: 100%;
+    max-width: 300px !important;
+  }
+  margin: 60px 0;
 }

@@ -12,8 +12,8 @@ export const PokemonView = () => {
       <Container className="showPokemonContainer">
         <Row>
           <div>
+            <div className="nome">{data && data.name}</div>
             <img src={!data && pokemon} alt="" />
-            <div>{data && data.name}</div>
             <img
               src={data && data.sprites.other["official-artwork"].front_default}
               alt={data && data.name}
