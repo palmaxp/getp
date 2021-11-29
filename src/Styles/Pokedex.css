@@ -40,6 +40,10 @@
   font-size: 25px;
 }
 
+ul {
+  margin-left: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .pokedex-view ul {
     display: block;

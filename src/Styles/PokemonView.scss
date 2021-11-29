@@ -1,8 +1,8 @@
 .showPokemon {
   display: flex;
   width: 100%;
+  min-width: 300px;
   align-items: flex-end;
-  padding: 30px 0;
   color: #fff;
   background-color: #81c784;
   .nome {
@@ -24,6 +24,7 @@
 .pokemonControl {
   display: flex;
   justify-content: space-between;
+  padding: 5px 0;
   button {
     order: 1;
   }
