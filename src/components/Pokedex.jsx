@@ -18,7 +18,7 @@ export const Pokedex = () => {
           <ul>
             {pokemonList.map((element) => {
               return (
-                <li ley={element.data.id} className="pokemon">
+                <li key={element.data.id} className="pokemon">
                   <img
                     src={
                       element.data.sprites.other["official-artwork"]
